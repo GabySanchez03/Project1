@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<h2>Button that changes</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<!--We grabbed the "demo" and made it equal to second text with onclick-->
+
+<h2>Turn on and off the lamp</h2>
+<p>In this case JavaScript changes the values of the src attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='Photos/lighton.gif'">Turn on the light</button>
+
+<img id="myImage" src='Photos/lighton.gif' style="width: 100px">
+
+<button onclick="document.getElementById('myImage').src='Photos/LightOff.gif'">Turn off the light</button>
+
+<h2>Java can change styles of HTML elements</h2>
+<p id="demo2">Change me!!</p> 
+<button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Use This</button>
+
+<h2>Java can also make things dissapeear</h2>
+<p id="demo3">Java is a magician!!</p>
+<button type="button" onclick="document.getElementById('demo3').style.display='none'">Make text above go away!!! is being mean :c</button>
+<!--How do I make button change text?? that would be cool!-->
+
+
+
+<body>
+    <script src="Scripts/Study.js"></script>
+</body>
+</html>

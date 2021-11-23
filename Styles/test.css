@@ -1,0 +1,31 @@
+h2 {
+    color:brown;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: chartreuse;
+    background-image: url('');
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(41, 5, 5);
+}
+td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border: solid 1px;
+    text-align: center;
+}
+.special {
+    color:violet;
+    font-style:italic;
+    margin: 19px;
+}
